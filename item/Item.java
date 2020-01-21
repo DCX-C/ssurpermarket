@@ -45,6 +45,10 @@ public class Item extends JButton{
                     public void actionPerformed(ActionEvent actionEvent) {
                         text.setVisible(false);
                         car.remove(text);
+                        total -=price;
+                        pTotal.setText("总计:"+total);
+                        setVisible(false);
+                        setVisible(true);
                     }
                 });
 
