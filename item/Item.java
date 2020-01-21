@@ -33,12 +33,21 @@ public class Item extends JButton{
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 pay.item += 1;
-                JLabel text = new JLabel(name + "价格：" + price);
+                JButton text = new JButton(name + "  价格：" + price+"------------取消");
                 setVisible(false);
                 setVisible(true);
                 car.add(text);
                 total +=price;
                 pTotal.setText("总计:"+total);
+
+                text.addActionListener(new ActionListener() {
+                    @Override
+                    public void actionPerformed(ActionEvent actionEvent) {
+                        text.setVisible(false);
+                        car.remove(text);
+                    }
+                });
+
             }
 
 
