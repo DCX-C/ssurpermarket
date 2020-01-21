@@ -83,12 +83,12 @@ public class Ui
         item[4] = new Item(0,400,"芬达",5,itemPanel,carPanel,label,true,4);
         item[5] = new Item(250,400,"营养快线",5,itemPanel,carPanel,label,true,5);
 
-        item[6] = new Item(0,0,"1",5,itemPanel,carPanel,label,false,6);
-        item[7] = new Item(250,0,"2",5,itemPanel,carPanel,label,false,7);
-        item[8] = new Item(0,200,"3",5,itemPanel,carPanel,label,false,8);
-        item[9] = new Item(250,200,"4",5,itemPanel,carPanel,label,false,9);
-        item[10] = new Item(0,400,"5",5,itemPanel,carPanel,label,false,10);
-        item[11] = new Item(250,400,"6",5,itemPanel,carPanel,label,false,11);
+        item[6] = new Item(0,0,"",0,itemPanel,carPanel,label,false,6);
+        item[7] = new Item(250,0,"",0,itemPanel,carPanel,label,false,7);
+        item[8] = new Item(0,200,"",0,itemPanel,carPanel,label,false,8);
+        item[9] = new Item(250,200"",0,itemPanel,carPanel,label,false,9);
+        item[10] = new Item(0,400,"",0,itemPanel,carPanel,label,false,10);
+        item[11] = new Item(250,400,"",0,itemPanel,carPanel,label,false,11);
 
         for(int i = 12;i<100;i++)
         {
